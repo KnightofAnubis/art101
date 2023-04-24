@@ -21,3 +21,14 @@
 .zoom:hover {
   transform: scale(1.1); 
 }
+
+#slide{
+  width: 450px;
+  padding: 0px;
+  margin-right: 200px;
+  border: dashed 2px;
+  background-color: #1fe4fe;
+  text-align: center;
+  float: right;
+  
+}

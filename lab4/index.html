@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - PseudoCoding</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,100 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem Solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Create a list of high-level tasks for a game.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>We didn't have any problems with this pseudocode assignment. </p>
 			</div>
 
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<h3>Everyday Task</h3>
+						<h2>The making of Pumpkin Pie</h2>
+						<ol>
+							<li>Look up recipe</li>
+							<ol>
+								<li>Through google or cook books</li>
+							</ol>
+							<li>Make sure you got all the necessary ingredients and tools</li>
+							<ol>
+								<li>make a shopping list if need for whatever is left to get</li>
+								<li>got to the store</li>
+								<li>buy supplied and don't forget crust</li>
+								<li>Or order it from Doordash</li>
+							</ol>
+							<li>Clean area for cooking</li>
+							<li>Preheat oven to 350 degree F</li>
+							<li>Mix together ingredients in bowl</li>
+							<ol>
+								<li>Mix together dry ingredients</li>
+								<li>Mix together wet ingredients</li>
+								<li>Mix both together</li>
+								<li>Optional: make whipped cream</li>
+							</ol>
+							<li>Pour into crust</li>
+							<li>Bake</li>
+						</ol>
+						<h3>Dots and Boxes: High level ordered list</h3>
+						<ol>
+							<li>Make a square grid of dots that is 15 x 15</li>
+							<li>Access user input</li>
+							<ol>
+								<li>Which two dots they draw their line between</li>
+								<li>Completed a box</li>
+								<li>Label/mark it belonging to the players</li>
+							</ol>
+							<li>Validate user move</li>
+							<li>Evaluate possible moves</li>
+								<ol>
+									<li>Where there is no line drawn</li>
+								</ol>
+							<li>Choose computer moves</li>
+							<ol>
+								<li>Update board each turn</li>
+								<li>Where lines are located</li>
+								<li>If there are completed boxes who won them</li>
+							</ol>
+							<li>Test win condition</li>
+							<ol>
+								<li>No more moves</li>
+								<li>Count number of boxes each player completed</li>
+								<li>Player with most boxes wins</li>
+							</ol>
+						</ol>
+						<h3>Pseudocoding Dots and Boxes</h3>
+						<pre><code>
+						//print updated board before each turn
+							//loop through each row
+								//loop through each space
+									//Print either dot, line - between the dots, or space between dots
+						//Ask user where they want to place their line
+						//place line
+						//if line completes a box 
+							//color box to signify it is player’s
+						//evaluate possible moves left
+							//loop through each row to see where there are lines vs. spaces
+						//the computer makes a move
+							//draws line in an available space
+						//returns board for player’s move
+						//when there are no spaces left
+							//count number of boxes for player and computer
+							//print who won
+								//player with most boxes
+						</code></pre>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
+			<a href = "../index.html" target = "_blank">Return to Homepage</a>
 		</nav>
 	</main>
 </body>
