@@ -14,9 +14,10 @@
     return color;
   }
   
-  
-  
-
+//add buttons
+$("#challenge").append("<button id='challenge-button'>Challenge</button>");
+$("#problems").append("<button id='problems-button'>Problems</button>");  
+$("#results").append("<button id='results-button'>Results</button>");
 
 //adding click listener in jQuery
 $("#challenge-button").click(function() {
