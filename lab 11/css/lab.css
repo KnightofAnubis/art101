@@ -4,9 +4,8 @@
 }
 
 .special{
-    color: green;
+    color: black;
+    background-color: teal;
+    border: solid 2px;
 }
 
-.default{
-    color:black;
-}

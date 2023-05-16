@@ -14,27 +14,43 @@
     return color;
   }
   
-  // Apply random color to elements with the 'random-color' class
+  
   
 
 
-//getting button element
+//adding click listener in jQuery
 $("#challenge-button").click(function() {
-  $("#challenge-button").css("color", "black");
+  //reseting button color
+  $("#challenge-button").css("backgroundColor", "white");
+  //changing font color
   $("#challenge").toggleClass("special").css("color", getRandomColor());
-  $("#problems-button").toggleClass("special").css("color", getRandomColor());
-  $("#results-button").toggleClass("special").css("color", getRandomColor());
+
+  //changing other button background colors
+  $("#problems-button").toggleClass("special").css("backgroundColor", getRandomColor());
+  $("#results-button").toggleClass("special").css("backgroundColor", getRandomColor());
 });
+
+//adding click listener in jQuery
 $("#problems-button").click(function() {
-  $("#problems-button").css("color", "black");
+  //reseting button color
+  $("#problems-button").css("backgroundColor", "white");
+  //changing font color
   $("#problems").toggleClass("special").css("color", getRandomColor());
-  $("#challenge-button").toggleClass("special").css("color", getRandomColor());
-  $("#results-button").toggleClass("special").css("color", getRandomColor());
+
+  //changin other button colors
+  $("#challenge-button").toggleClass("special").css("backgroundColor", getRandomColor());
+  $("#results-button").toggleClass("special").css("backgroundColor", getRandomColor());
 });
+
+//adding click listener in jQuery
 $("#results-button").click(function() {
-  $("#results-button").css("color", "black");
+  //reseting button color
+  $("#results-button").css("backgroundColor", "white");
+  //changing font color
   $("#results").toggleClass("special").css("color", getRandomColor());
-  $("#challenge-button").toggleClass("special").css("color", getRandomColor());
-  $("#problems-button").toggleClass("special").css("color", getRandomColor());
+
+  //changing other button colors
+  $("#challenge-button").toggleClass("special").css("backgroundColor", getRandomColor());
+  $("#problems-button").toggleClass("special").css("backgroundColor", getRandomColor());
 });
 
