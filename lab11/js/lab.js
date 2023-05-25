@@ -24,7 +24,7 @@ $("#challenge-button").click(function() {
   //reseting button color
   $("#challenge-button").css("backgroundColor", "white");
   //changing font color
-  $("#challenge").toggleClass("special").css("color", getRandomColor());
+  $(this).parent().toggleClass("special").css("color", getRandomColor());
 
   //changing other button background colors
   $("#problems-button").toggleClass("special").css("backgroundColor", getRandomColor());
