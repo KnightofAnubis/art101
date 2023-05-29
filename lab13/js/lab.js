@@ -21,6 +21,7 @@ function getFactorObj() {
           factorObj[numValue] = textValue;
       }
   }
+  
   return factorObj;
 }
 
@@ -31,6 +32,7 @@ function fizzBuzz(maxnum, factorObj) {
  //iterating through max number
   
   for(var i= 1; i <= maxnum; i++){ 
+    
     var outputStr = '';
     //factoring...
     for(var factor in factorObj){
@@ -42,7 +44,6 @@ function fizzBuzz(maxnum, factorObj) {
     if(outputStr){
       outputStr = ": " + outputStr + "!" ;
     }
-
     $("#output").append(i.toString() + outputStr+ "</br>");
   }
 }
@@ -59,5 +60,5 @@ $("#button").click(function() {
       return;
   }
   fizzBuzz(max, factorObj);
-  
+  debugger;
 })

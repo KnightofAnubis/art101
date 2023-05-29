@@ -11,9 +11,8 @@
     columns: 4;
 }
 
-#fizz{
-    padding: 10px;
-    margin-bottom: 10px;
-    border: dashed 2px;
-    background-color: #2c9e89;
+.debug{
+    width: 800px;
+
+
 }
