@@ -1,0 +1,13 @@
+#js{
+    text-align: right;
+    
+}
+
+#output, #films, #vehicles, #starships, #character {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 2px;
+    background-color: #2c9e89;
+    
+}
+
